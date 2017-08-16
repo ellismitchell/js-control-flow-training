@@ -8,7 +8,7 @@ let securityQuestions = [
 for (q of securityQuestions) {
 	let a = window.prompt(q.question);
 	if (!(a === q.expectedAnswer)) {
-		alert();
+		alert("Wrong answer");
 		break;
 	}
 
